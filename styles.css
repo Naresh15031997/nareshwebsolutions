@@ -1,0 +1,19 @@
+/* Gradient portfolio styles */
+:root{--bg:#f8fbff;--text:#0b1220;--muted:#566270;--accent1:#7b61ff;--accent2:#06d6a0}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Arial;line-height:1.5;margin:0;background:var(--bg);color:var(--text)}
+.g-container{max-width:1100px;margin:0 auto;padding:2rem}
+.g-header-inner{display:flex;align-items:center;justify-content:space-between}
+.g-logo{font-weight:700;text-decoration:none;color:inherit}
+.g-nav a{margin-left:1rem;text-decoration:none;color:var(--muted)}
+.g-hero{background:linear-gradient(135deg,var(--accent1),var(--accent2));color:#fff;padding:4rem 0;border-radius:18px;margin:2rem}
+.g-hero-inner{display:grid;grid-template-columns:1fr 420px;gap:2rem;align-items:center}
+.g-title{font-size:2.4rem;margin:.3rem 0}
+.g-btn{display:inline-block;padding:.6rem 1rem;border-radius:10px;background:#fff;color:var(--text);font-weight:600;margin-right:.5rem}
+.g-btn.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.18)}
+.g-card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(11,17,34,0.06)}
+.g-card img{width:100%;height:200px;object-fit:cover}
+.g-card .card-body{padding:1rem}
+.split{display:flex;gap:2rem}
+.skills span{background:#f1f6ff;padding:.35rem .6rem;border-radius:999px}
+.contact-form input,.contact-form textarea{width:100%;padding:.6rem;border:1px solid #ddd;border-radius:8px}
