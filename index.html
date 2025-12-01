@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Naresh Kumar — Website Designer</title>
+  <meta name="description" content="Naresh Kumar — Website Designer. I build modern, responsive websites that convert.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="g-header">
+    <div class="g-container g-header-inner">
+      <a class="g-logo" href="#">Naresh Kumar</a>
+      <button id="gMenuToggle" class="g-menu-toggle" aria-label="Open menu">☰</button>
+      <nav id="gMainNav" class="g-nav">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="g-hero">
+      <div class="g-container g-hero-inner">
+        <div class="g-hero-left">
+          <small class="eyebrow">Designer • Frontend</small>
+          <h1 class="g-title">Hi — I'm <span class="accent">Naresh Kumar</span></h1>
+          <p class="g-lead">I design bright, usable websites with attention to detail, accessibility, and performance.</p>
+          <p class="cta-row"><a class="g-btn" href="#contact">Hire me</a> <a class="g-btn ghost" href="#work">See work</a></p>
+        </div>
+        <div class="g-hero-right">
+          <div class="g-card-visual" aria-hidden="true">
+            <div class="g-card-top">Project Showcase</div>
+            <div class="g-card-body">Clean, minimal UI with a colorful gradient header — perfect for portfolios.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="g-section">
+      <div class="g-container">
+        <h2 class="section-title">Selected Projects</h2>
+        <div class="g-grid">
+          <article class="g-card project-card">
+            <img src="assets/project-1.png" alt="Project 1 screenshot">
+            <div class="card-body">
+              <h3>Project Title — E-commerce redesign</h3>
+              <p>Role: Lead designer. Built responsive product pages and checkout flow that improved conversions.</p>
+            </div>
+          </article>
+
+          <article class="g-card project-card">
+            <img src="assets/project-2.png" alt="Project 2 screenshot">
+            <div class="card-body">
+              <h3>Project Title — Branding & site</h3>
+              <p>Role: Designer. Complete brand + marketing site for a SaaS startup.</p>
+            </div>
+          </article>
+
+          <article class="g-card project-card">
+            <img src="assets/project-3.png" alt="Project 3 screenshot">
+            <div class="card-body">
+              <h3>Project Title — Landing page</h3>
+              <p>Role: UI/UX designer. High-converting landing page for campaign launches.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="g-section alt">
+      <div class="g-container split">
+        <div>
+          <h2>About me</h2>
+          <p>I'm a website designer focused on clean, accessible, and fast websites. I specialize in design systems, responsive layouts, and bridging design with frontend implementation.</p>
+          <ul>
+            <li>5+ years designing websites</li>
+            <li>Tools: Figma, HTML, CSS, JavaScript</li>
+            <li>Available for freelance and full-time work</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Skills</h3>
+          <div class="skills">
+            <span>Design Systems</span>
+            <span>Responsive UI</span>
+            <span>Prototyping</span>
+            <span>Performance</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="g-section">
+      <div class="g-container">
+        <h2>Contact</h2>
+        <p>Email me at <a href="mailto:naresh@example.com">naresh@example.com</a> or use the form below.</p>
+        <form class="contact-form" action="#" onsubmit="return contactSubmit(event)">
+          <label>
+            Your name
+            <input name="name" required>
+          </label>
+          <label>
+            Your email
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="g-btn" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="g-footer">
+    <div class="g-container footer-inner">
+      <div>© 2025 Naresh Kumar</div>
+      <div class="social">
+        <a href="#">Dribbble</a>
+        <a href="#">Behance</a>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
